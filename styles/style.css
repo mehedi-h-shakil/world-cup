@@ -57,6 +57,11 @@ top banner style
     width: 200px;
     margin-bottom: 50px;
     border-radius: 10px;
+    margin-top: 20px;
+}
+
+.link-btn:hover {
+    background-color: greenyellow;
 }
 
 
@@ -121,6 +126,11 @@ blog post section
     border-radius: 10px;
 }
 
+.button-section a {
+    text-decoration: none;
+    color: black;
+}
+
 .btn-link {
     width: 250px;
     height: 50px;
@@ -128,10 +138,62 @@ blog post section
     border-radius: 10px;
 }
 
+
 #blog {
     background-color: yellowgreen;
+
 }
 
+/* ------------
+blog page 
+-------------- */
+.match {
+    display: flex;
+    width: 250px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.match-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.match-details h2,
+p {
+    margin: 0;
+}
+
+.match-details p {
+    margin-bottom: 20px;
+}
+
+.match img {
+    width: 80px;
+    height: 50px;
+}
+
+.match-posts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 100px;
+
+}
+
+.match-post {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px gainsboro;
+    border-radius: 5px;
+}
+
+.match-section {
+    margin-bottom: 70px;
+}
 
 /* ----------
 Footer section
