@@ -348,15 +348,20 @@ media query
 
     .banner-img {
         width: 100%;
+        height: 400px;
         position: relative;
+    }
+
+    .banner-img img {
+        height: 400px;
     }
 
     .transition-image {
         position: absolute;
+        width: 100%;
         top: 0;
         left: 0;
         opacity: 0;
-        width: 420px;
         border-radius: 30px;
         transition: opacity 1s ease;
     }
@@ -430,6 +435,10 @@ media query
 
     }
 
+    .social-link {
+        margin-left: 25px;
+    }
+
 }
 
 /* -----------
@@ -477,7 +486,7 @@ tablet devices
         top: 0;
         left: 0;
         opacity: 0;
-        width: 765px;
+        width: 100%;
         border-radius: 30px;
         transition: opacity 1s ease;
     }
