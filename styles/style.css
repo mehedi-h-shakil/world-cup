@@ -312,11 +312,33 @@ media query
     }
 
     .banner-title h1 {
+        text-align: center;
+
+    }
+
+    .banner-title p {
+        width: 270px;
+        height: 50px;
+        text-align: center;
+        margin: 0 auto;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
+
+    .banner-title h1 {
         font-size: 30px;
     }
 
+    .link-btn {
+        align-items: center;
+        margin-left: 50px;
+    }
+
     .banner-img img {
-        height: 350px;
+        width: 400px;
     }
 
 
@@ -406,6 +428,20 @@ tablet devices
 
     .banner-title {
         width: 400px;
+    }
+
+    .banner-title h1 {
+        font-size: 3rem;
+    }
+
+    .banner-title p {
+        width: 270px;
+        height: 50px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
     }
 
     .blog-post-section {
