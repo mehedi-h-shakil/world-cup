@@ -43,8 +43,21 @@ top banner style
     padding: 0;
 }
 
+.banner-img {
+    display: grid;
+    grid-template-columns: repeat(1.1fr);
+    height: 600px;
+    transition: transform 2s ease-in-out;
+
+}
+
 .banner-img img {
-    height: 500px;
+    height: 600px;
+}
+
+
+.banner-img:hover {
+    transform: rotate(360deg);
 }
 
 .banner-title h1 {
