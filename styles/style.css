@@ -110,7 +110,8 @@ blog post section
     flex-direction: column;
     margin-right: 20px;
     margin-bottom: 20px;
-    box-shadow: 1px 1px gainsboro;
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2),
+        15px 15px 15px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
 
@@ -210,7 +211,8 @@ p {
 .match-post {
     margin-right: 20px;
     margin-bottom: 20px;
-    box-shadow: 1px 1px gainsboro;
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2),
+        15px 15px 15px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
 
