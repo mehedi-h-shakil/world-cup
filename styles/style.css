@@ -138,14 +138,13 @@ blog post section
     border-radius: 10px;
 }
 
-
 #blog {
     background-color: yellowgreen;
 
 }
 
 /* ------------
-blog page 
+match page 
 -------------- */
 .match {
     display: flex;
@@ -193,6 +192,14 @@ p {
 
 .match-section {
     margin-bottom: 70px;
+}
+
+#match {
+    background-color: yellowgreen;
+}
+
+#match:hover {
+    background-color: greenyellow
 }
 
 /* ----------
