@@ -251,7 +251,7 @@ Footer section
     display: flex;
     justify-content: space-evenly;
     font-size: 13px;
-    margin-bottom: 100px;
+
 
 
 }
@@ -260,6 +260,19 @@ Footer section
     font-weight: 300;
 }
 
+.social-link {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.social-link a {
+    margin-right: 30px;
+    font-size: 2rem;
+    color: yellowgreen;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
 
 
 /* ---------------
